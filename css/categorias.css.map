@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,WAAW;EACP,MAAM,EAAE,WAAW;EACnB,MAAM,EAAE,IAAI;;AAGhB,iBAAiB;EACb,UAAU,EAAE,kBAAkC",
+"sources": ["../sass/categorias.scss"],
+"names": [],
+"file": "categorias.css"
+}

@@ -1,0 +1,74 @@
+body{
+    background: #F0F0F0;
+}
+#imgProgramadores{
+    width: 80px;
+    margin: auto;
+    height: auto;
+    display: block;
+    padding: 20px;
+}
+#div1{
+    background: #fff;
+   margin: 50px 300px;
+
+}
+#programadores{
+    margin-top: 150px;
+}
+
+#imageDesigner{
+    width: 80px;
+    margin: auto;
+    height: auto;
+    display: block;
+    padding: 20px;
+
+}
+#imageWrite{
+    width: 110px;
+    margin: auto;
+    height: auto;
+    display: block;
+    padding: 20px;
+
+}
+#imageSales{   
+    width: 80px;
+    margin: auto;
+    height: auto;
+    display: block;
+    padding: 20px;
+
+}
+#imageSecretary{   
+    width: 100px;
+    margin: auto;
+    height: auto;
+    display: block;
+    padding: 20px;
+
+}
+#imageArchitecture{
+    width: 80px;
+    margin: auto;
+    height: auto;
+    display: block;
+    padding: 20px;
+}
+
+#imageFinance{
+    width: 80px;
+    margin: auto;
+    height: auto;
+    display: block;
+    padding: 20px;
+}
+
+#imageLawyer{
+    width: 80px;
+    margin: auto;
+    height: auto;
+    display: block;
+    padding: 20px;
+}
