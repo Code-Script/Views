@@ -1,0 +1,154 @@
+body{
+  background: #F0F0F0;
+}
+
+#div1{
+  margin-top: 200px;  
+}
+#div2{
+  margin-top: 10px;
+}
+#programadores{
+  background: #FFF;
+  margin-right: 10px; 
+}
+#programadores:hover{
+  background: rgba(225, 225, 225, 0.1);
+  border-radius:10px; 
+}
+
+#imageProgramer{
+  width: 150px;
+  margin: auto;
+  height: auto;
+  display: block;
+  padding: 30px;  
+}
+
+#designer{
+  background: #fff;
+  margin: 0px 0px;
+  margin-right: 10px; 
+}
+#designer:hover{
+  background: rgba(225, 225, 225, 0.1);
+  border-radius:10px; 
+}
+#imageDesigner{
+width: 140px;
+margin: auto;
+height: auto;
+display: block;
+padding: 20px;
+}
+
+#write{
+  background: #FFF;
+  margin-right: 10px; 
+}
+#write:hover{
+  background: rgba(225, 225, 225, 0.1);
+  border-radius:10px; 
+}
+#imageWrite{
+   width: 140px;
+margin: auto;
+height: auto;
+display: block;
+padding: 20px;
+}
+#sales{
+  background: #FFF;
+  margin-right: 10px; 
+}
+#sales:hover{
+  background: rgba(225, 225, 225, 0.1);
+  border-radius:10px; 
+}
+#imageSales{
+width: 130px;
+margin: auto;
+height: auto;
+display: block;
+padding: 20px;
+}
+
+#secretary{
+  background: #FFF;
+  margin-right: 10px; 
+}
+#secretary:hover{
+  background: rgba(225, 225, 225, 0.1);
+  border-radius:10px; 
+}
+#imageSecretary{
+width: 150px;
+margin: auto;
+height: auto;
+display: block;
+padding: 20px;
+}
+#architecture{
+  margin-right: 10px; 
+  background: #FFF;
+}
+#architecture:hover{
+  background: rgba(225, 225, 225, 0.1);
+  border-radius:10px; 
+}
+#imageArchitecture{
+width: 130px;
+margin: auto;
+height: auto;
+display: block;
+padding: 20px;
+}
+#finance{
+  margin-right: 10px; 
+  background: #FFF;
+}
+#finance:hover{
+  background: rgba(225, 225, 225, 0.1);
+  border-radius:10px; 
+}
+#imageFinance{
+width: 130px;
+margin: auto;
+height: auto;
+display: block;
+padding: 20px;
+}
+#lawyer{
+  margin-right: 10px; 
+  background: #FFF;
+}
+#lawyer:hover{
+  background: rgba(225, 225, 225, 0.1);
+  border-radius:10px; 
+}
+#imageLawyer{
+width: 130px;
+margin: auto;
+height: auto;
+display: block;
+padding: 20px;
+}
+
+
+#modalProgramadores{
+  margin-top: 20px;
+  background: #F0F0F0;
+ 
+}
+#imgProgramadores{
+  width: 60px;
+  margin: auto;
+  height: auto;
+  display: block;
+  padding: 20px;
+}
+#Buttonskills{
+  margin-top: 50px;
+}
+
+
