@@ -1,0 +1,106 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="js/archivo1.js"></script>
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+     <div class="container">
+        <section class="section-divider text-dark text-center">
+			<div class="container">
+                <h1 class="mt-3 display-4">Publica tu proyecto gratis!</h1><br>
+				<h6 class="">Busquemos al mejor freelancer ¿Que necesitas? <i class="fa fa-heart text-danger"></i></h6>
+				<hr>
+			</div>
+		</section>
+        <div class="col-md-12">
+           
+            <div class="row">
+               <!--Categoria-->
+                <div class="col-md-4 mt-2" >
+                <div class="caja" id="Margeting_Digital" onclick="seleccionarCategoria(this.id)">
+                    <img class="img" alt="" src="img/marke.jpg" data-toggle="tooltip" data-placement="top" title="Publica un proyecto sobre Marketing Digital">
+                <div class="p-2 text-center">
+                    <h4 class="text-primary"><i>Marketing digital</i></h4>
+                </div>
+                </div>
+                </div>
+                <!--/Categoria-->
+                  <!--Categoria-->
+                <div class="col-md-4 mt-2"  >
+                <div class="caja" id="Desarrollo_Web" onclick="seleccionarCategoria(this.id)">
+                    <img class="img" alt="" src="img/prog.jpg" data-toggle="tooltip" data-placement="top" title="Publica un proyecto sobre desarrollo web">
+                <div class="p-2 text-center">
+                    <h4 class="text-primary"><i>Desarrollo web</i></h4>
+                </div>
+                </div>
+                </div>
+                <!--/Categoria-->
+                 <!--Categoria-->
+                <div class="col-md-4 mt-2"  >
+                <div class="caja" id="Arquitectura" onclick="seleccionarCategoria(this.id)">
+                    <img class="img" alt="" src="img/arqui.jpg" data-toggle="tooltip" data-placement="top" title="Publica un proyecto sobre Arquitectura">
+                <div class="p-2 text-center">
+                    <h4 class="text-primary"><i>Arquitectura</i></h4>
+                </div>
+                </div>
+                </div>
+                <!--/Categoria-->
+                  <!--Categoria-->
+                <div class="col-md-4 mt-2"  >
+                <div class="caja" id="Cocina" onclick="seleccionarCategoria(this.id)">
+                    <img class="img" alt="" src="img/food.jpg" data-toggle="tooltip" data-placement="top" title="Publica un proyecto sobre Cocina">
+                <div class="p-2 text-center">
+                    <h4 class="text-primary"><i>Cocina</i></h4>
+                </div>
+                </div>
+                </div>
+                <!--/Categoria-->
+                  <!--Categoria-->
+                <div class="col-md-4 mt-2"  >
+                <div class="caja" id="Fotografia" onclick="seleccionarCategoria(this.id)">
+                    <img class="img" alt="" src="img/fotografia.jpg" data-toggle="tooltip" data-placement="top" title="Publica un proyecto sobre fotografia">
+                <div class="p-2 text-center">
+                    <h4 class="text-primary"><i>Fotografia</i></h4>
+                </div>
+                </div>
+                </div>
+                <!--/Categoria-->
+                  <!--Categoria-->
+                <div class="col-md-4 mt-2"  >
+                <div class="caja" id="Otros" onclick="seleccionarCategoria(this.id)">
+                    <img class="img" alt="" src="img/otros.jpg" data-toggle="tooltip" data-placement="top" title="Publica un proyecto">
+                <div class="p-2 text-center">
+                    <h4 class="text-primary"><i>Otros</i></h4>
+                </div>
+                </div>
+                </div>
+                <!--/Categoria-->
+                
+            </div>
+          
+            
+            <div class="row ">
+                <button class="btn btncomienza m-3" onclick="validar()">Comienza</button>
+            </div>
+        </div>
+        
+    </div>
+    
+    <button class="btnfloat pull-right" onclick="validar()"><i class="fa fa-check"></i></button>
+    <div id="snackbar"><p id="snackbartext">Usted selecciono</p></div> <!--Esto no se muestra al menos que se de click a una categoria, cambia el parrafo dependiendo cual se de click-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
